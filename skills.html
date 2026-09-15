@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+    <title>SKU Generator</title>
+</head>
+<body>
+
+<a href="project.html">Go to SKU Generator</a>
+<br><br>
+
+<input type="checkbox" id="dcc" value="159">
+<label id="item1-label">Dubai Chewy Cookie</label><br>
+
+<input type="checkbox" id="dccm" value="179">
+<label id="item2-label">Dubai Chewy Cookie Matcha</label><br>
+
+<input type="checkbox" id="dccb" value="199">
+<label id="item3-label">Dubai Chewy Cookie Biscoff</label><br>
+
+<button type="button" py-click="create_order">Create Order</button>
+
+<div id="show"
+     style="background-color: rgb(206, 154, 212);
+            color: rgb(221, 233, 156);
+            font-size: 35px;">
+</div>
+
+<py-script src="main.py"></py-script>
+
+</body>
+</html>
